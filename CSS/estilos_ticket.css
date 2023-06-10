@@ -1,0 +1,106 @@
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    margin-top: 4.6%;
+}
+
+
+.row {
+    justify-content: center;
+    margin: 0;
+}
+
+
+.Logo{
+    height: 6%;
+    width: 6%;
+}
+
+.barra_nav{
+    margin-left:5% ;
+    margin-right: 5%;
+}
+.nav-link:hover{
+    color: white!important;
+}
+
+.text-success:hover{
+    color: #3CCF4E!important;
+}
+.nav-item:hover{
+    transform:translateY(-5px);
+    transition:0.3s;    
+}
+
+.card-junior:hover{
+    transform: scale(1.02);
+    transition: 0.8s linear;
+    background-color: rgba(255, 215, 0, 0.2);
+}
+.card-trainee:hover{
+    transform: scale(1.02);
+    transition: 0.8s linear;
+    background-color: rgba(0, 191, 255, 0.2);
+}
+
+.card-estudiante:hover{
+    transform: scale(1.02);
+    transition: 0.8s linear;
+    background-color: rgba(0,0,255, 0.2);
+}
+
+
+
+footer{
+    margin-top: 1%;
+    background:linear-gradient(90deg, rgb(9, 39, 53), rgb(27, 85, 119));
+}
+
+
+.hover:hover{
+    color:#3CCF4E !important;
+}
+
+::-webkit-scrollbar {
+    display: none;        
+}
+
+.form-select{
+    width: 97.5%;
+}
+
+@media screen and (max-width: 761px) {
+
+    main{
+        margin-top: 10%;
+    }
+  
+    .card {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .form{
+        width: 87%!important;
+    }
+  }
+  
+
+
+
+
+
